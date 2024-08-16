@@ -12,17 +12,17 @@ This repository contains a collection of unique XSS (Cross-Site Scripting) paylo
 To use the XSS payloads from this repository, follow these steps:
 
 1. Clone or download this repository:
-   \`\`\`bash
-   git clone https://github.com/$GITHUB_USERNAME/$REPO_NAME.git
-   \`\`\`
+   ```bash
+   git clone https://github.com/TracerXploit/XSS-Payload-Collection
+   ```
 2. Navigate to the folder containing the $FILE_NAME file:
-   \`\`\`bash
-   cd $REPO_NAME
-   \`\`\`
+   ```bash
+   cd XSS-Payload-Collection
+   ```
 3. Open the file and choose a payload for testing:
-   \`\`\`bash
-   cat $FILE_NAME
-   \`\`\`
+   ```bash
+   cat XSS_all_payloads_unique.txt
+   ```
 
 4. Copy the desired payload and inject it into form fields, URL parameters, or other user input areas of the application under test.
 
@@ -30,9 +30,9 @@ To use the XSS payloads from this repository, follow these steps:
 
 Here's an example of an XSS payload from the file:
 
-\`\`\`html
+```html
 <script>alert('XSS');</script>
-\`\`\`
+```
 
 This payload can be inserted into form fields, URL parameters, or comment sections to check for possible XSS vulnerabilities.
 
@@ -46,7 +46,7 @@ You can also automate the testing of XSS payloads using tools such as:
 
 For example, in **Burp Suite**, you can import this payload list as a custom wordlist for active scanning:
 
-\`\`\`bash
+```bash
 # Example to show how to load wordlist into Burp Suite Intruder
 
 # 1. Open Burp Suite.
@@ -54,23 +54,17 @@ For example, in **Burp Suite**, you can import this payload list as a custom wor
 # 3. Highlight the parameter where you want to test for XSS.
 # 4. Select Payloads tab > Load your custom wordlist.
 # 5. Choose "$FILE_NAME" and start the attack.
-\`\`\`
+```
 
 ## 💡 Contribution Guidelines
 
 We welcome contributions to expand the collection of XSS payloads. If you would like to contribute:
 
 1. Fork the repository.
-2. Add your unique payloads to \`$FILE_NAME\`.
+2. Add your unique payloads to `XSS_all_payloads_unique.txt`.
 3. Submit a pull request with a brief explanation of the changes.
-
-### Example Contribution:
-
-\`\`\`html
-<svg onload=alert(1)>
-\`\`\`
 
 ## ⚠️ Disclaimer
 
 This collection is for **educational purposes** and **ethical hacking** only. Please use it responsibly and ensure you have permission before testing any application. Unauthorized testing is illegal and unethical. Always follow legal and ethical guidelines when performing security tests.
-EOT
+
