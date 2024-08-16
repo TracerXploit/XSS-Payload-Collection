@@ -4,7 +4,7 @@ This repository contains a collection of unique XSS (Cross-Site Scripting) paylo
 
 ## 📂 File Description
 
-- **[XSS_all_payloads_unique](./XSS_all_payloads_unique)**  
+- **[XSS_all_payloads_unique](./XSS_all_payloads_unique.txt)**  
   This file contains a carefully curated list of unique XSS payloads, free from duplicates. You can use these payloads in penetration testing tools, scripts, or manually test your web applications for XSS vulnerabilities.
 
 ## 🛠️ How to Use
